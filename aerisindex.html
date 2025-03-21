@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERIS - Purificación de Aire de Grado Médico</title>
+    <style>
+        /* Estilos Globales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #009FE3; /* Azul Corporativo */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #007acc;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* Sección Hero (Inicio) */
+        .hero {
+            background: url('ruta-a-imagen-banner.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+            margin: 10px 0 20px;
+        }
+        .cta-button {
+            background-color: #009FE3;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        /* Contenedor Principal */
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #009FE3;
+            border-bottom: 2px solid #009FE3;
+            padding-bottom: 10px;
+        }
+        .section h3 {
+            color: #007acc;
+            margin-top: 20px;
+        }
+        .section ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+        .section img {
+            width: 100%;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #4D4D4D;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        /* Formulario de Contacto */
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form button {
+            background-color: #009FE3;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado y Menú -->
+    <header>
+        <h1>AERIS - Purificación de Aire de Grado Médico</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#tecnologia">Tecnología</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#aplicaciones">Aplicaciones</a></li>
+                <li><a href="#certificaciones">Certificaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero" id="inicio">
+        <h1>AERIS – Innovación en Purificación del Aire de Grado Médico</h1>
+        <p>Respira aire puro, protege tu salud</p>
+        <a href="#contacto" class="cta-button">Solicita una Demostración</a>
+    </section>
+
+    <!-- Contenedor Principal -->
+    <div class="container">
+        <!-- Sección: Nosotros -->
+        <section class="section" id="nosotros">
+            <h2>Quienes Somos</h2>
+            <p>
+                AERIS es una empresa especializada en soluciones avanzadas de purificación de aire con tecnología de grado médico-hospitalario. 
+                Diseñamos equipos que garantizan ambientes saludables y seguros, eliminando virus, bacterias y contaminantes. 
+                Con un fuerte compromiso con la salud y la innovación, trabajamos para prevenir infecciones nosocomiales y mejorar la calidad del aire en hospitales, clínicas, laboratorios y centros de salud.
+            </p>
+            <!-- Imagen sugerida: Foto del equipo, instalaciones o imagen conceptual -->
+            <img src="ruta-a-imagen-nosotros.jpg" alt="Equipo AERIS">
+        </section>
+
+        <!-- Sección: Tecnología -->
+        <section class="section" id="tecnologia">
+            <h2>Tecnología de Purificación</h2>
+            <p>
+                Nuestro sistema integra múltiples tecnologías en un solo equipo para lograr una purificación efectiva y continua. 
+                AERIS combina la filtración en 4 etapas y la nanotecnología fotocatalítica avanzada, garantizando la eliminación de contaminantes a nivel molecular.
+            </p>
+            <h3>Filtración en 4 Etapas</h3>
+            <ul>
+                <li><strong>Filtro G4:</strong> Captura polvo, polen y partículas grandes.</li>
+                <li><strong>Filtro MERV 15:</strong> Atrapa partículas finas (0.3 - 1 µm), incluyendo bacterias y alérgenos.</li>
+                <li><strong>Lámparas UV-C:</strong> Emisión a 254 nm para inactivación rápida de virus, bacterias y hongos.</li>
+                <li><strong>Reactor Fotocatalítico OFHA:</strong> Utiliza una combinación de TiO₂, ZnO, Ag⁺ y MgO activada por UV-C para descomponer contaminantes orgánicos volátiles, virus y bacterias a nivel molecular.</li>
+            </ul>
+            <h3>Tecnología Fotocatalítica Avanzada</h3>
+            <p>
+                El reactor fotocatalítico de AERIS implementa un proceso de oxidación fotocatalítica heterogénea avanzada (OFHA), que descompone los contaminantes orgánicos volátiles (COVs) y patógenos sin generar subproductos tóxicos. 
+                Este sistema transforma los contaminantes en CO₂ y agua, garantizando un aire limpio y seguro en entornos críticos.
+            </p>
+            <!-- Imagen sugerida: Diagrama o infografía del proceso de purificación -->
+            <img src="ruta-a-infografia-tecnologia.jpg" alt="Diagrama de Tecnología AERIS">
+        </section>
+
+        <!-- Sección: Beneficios -->
+        <section class="section" id="beneficios">
+            <h2>Beneficios Clave</h2>
+            <ul>
+                <li>Eliminación de <strong>99.97% de contaminantes</strong> (bacterias, virus y alérgenos).</li>
+                <li>Certificaciones internacionales: <strong>ISO, ASHRAE, OMS, EPA, NB 62022</strong>.</li>
+                <li>Tecnología Fotocatalítica para una purificación superior.</li>
+                <li>Bajo consumo energético y mantenimiento sencillo.</li>
+                <li>Diseño compacto y portátil, ideal para hospitales, clínicas y laboratorios.</li>
+            </ul>
+            <!-- Imagen sugerida: Collage de iconos o imágenes representativas de cada beneficio -->
+            <img src="ruta-a-imagen-beneficios.jpg" alt="Beneficios AERIS">
+        </section>
+
+        <!-- Sección: Aplicaciones -->
+        <section class="section" id="aplicaciones">
+            <h2>Aplicaciones Recomendadas</h2>
+            <ul>
+                <li><strong>Hospitales y Clínicas:</strong> Reducen el riesgo de infecciones nosocomiales y aseguran un ambiente seguro para pacientes y personal.</li>
+                <li><strong>Laboratorios:</strong> Control de partículas y sustancias volátiles para entornos de alta precisión.</li>
+                <li><strong>Industrias Farmacéuticas:</strong> Garantizan la pureza del aire en áreas críticas de producción y almacenamiento.</li>
+            </ul>
+            <!-- Imagen sugerida: Fotos de hospitales, laboratorios o clínicas en funcionamiento -->
+            <img src="ruta-a-imagen-aplicaciones.jpg" alt="Aplicaciones AERIS">
+        </section>
+
+        <!-- Sección: Certificaciones -->
+        <section class="section" id="certificaciones">
+            <h2>Certificaciones Internacionales</h2>
+            <ul>
+                <li><strong>ISO:</strong> Garantía de calidad en procesos y manufactura.</li>
+                <li><strong>ASHRAE:</strong> Cumple con estándares de rendimiento en purificación de aire.</li>
+                <li><strong>OMS:</strong> Recomendaciones para ambientes saludables en entornos médicos.</li>
+                <li><strong>EPA:</strong> Certificación de seguridad y eficiencia ambiental.</li>
+                <li><strong>NB 62022:</strong> Normativa boliviana que garantiza la calidad del aire en espacios hospitalarios.</li>
+            </ul>
+            <!-- Imagen sugerida: Galería de logotipos de certificaciones -->
+            <img src="ruta-a-galeria-certificaciones.jpg" alt="Certificaciones AERIS">
+        </section>
+
+        <!-- Sección: Contacto -->
+        <section class="section" id="contacto">
+            <h2>Contacto</h2>
+            <p>
+                <strong>Dirección:</strong> Cochabamba, Bolivia<br>
+                <strong>Correo:</strong> contacto@aeris.com<br>
+                <strong>Teléfono:</strong> +591 XXX XXX XX<br>
+                <strong>Página Web:</strong> www.aeris.com
+            </p>
+            <!-- Formulario de Contacto -->
+            <form action="#" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+                <textarea name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                <button type="submit" class="cta-button">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2025 AERIS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
